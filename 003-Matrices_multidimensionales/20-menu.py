@@ -15,9 +15,11 @@ while True:
         email = input("Dime tu email: ")
         telefono = input("Dime tu telefono: ")
         agenda.append([nombre,apellidos,email,telefono])
+        print("Se ha insertado como un nuevo registro.📑")
 
     #Imprimir
     elif opcion == 2:
+        print("Aqui se muestran los registros.🖨")
         print(agenda)
 
     #Guardar
@@ -25,8 +27,10 @@ while True:
         archivo = open("Agenda.bin", 'wb')
         pickle.dump(agenda,archivo)
         archivo.close()
+        print("Se ha guardado con exito.💾")
 
     #Eliminar
     elif opcion == 4:
         eliminar = int(input("Ingresa el registro a eliminar: "))
         agenda.pop(eliminar)
+        print("Se ha eliminado correctamente.🚽")
