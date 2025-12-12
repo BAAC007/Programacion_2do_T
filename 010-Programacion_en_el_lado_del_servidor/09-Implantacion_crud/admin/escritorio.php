@@ -1,5 +1,3 @@
-<!--http://..../basesdedatosdamdaw2526/008-Proyectos/003-Panel%20de%20control/101-Ejercicios/aplicacion/admin/escritorio.php -->
-
 <!doctype html>
 <html lang="es">
 
