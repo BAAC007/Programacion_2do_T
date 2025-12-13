@@ -3,7 +3,7 @@
 // Primero traemos el formulario de insertar
 // Y luego lo rellenamos de datos (los datos a actualizar)
 
-	$host = "localhost";
+		$host = "localhost";
     $user = "periodico";
     $pass = "Periodico123$";
     $db   = "periodico";
@@ -17,7 +17,9 @@
 ?>
 
     <form action="inc/update/procesaformulario.php" method="POST">
-    	<input type="hidden" name="id" value="<?= $fila['titulo'] ?>"> <!-- OJO A ESTE CAMPO OCULTO -->
+    	<!-- CORREGID ESTA LINEA -->
+    	<input type="hidden" name="id" value="<?= $fila['id'] ?>"> <!-- OJO A ESTE CAMPO OCULTO -->
+      <!-- CORREGID ESTA LINEA -->
       <div class="controlformulario">
         <label for="titulo">Título de la nueva noticia</label>
         <input type="text" name="titulo" id="titulo" value="<?= $fila['titulo'] ?>">

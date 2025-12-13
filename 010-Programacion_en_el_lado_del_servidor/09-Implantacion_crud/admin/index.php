@@ -2,13 +2,18 @@
 <!doctype html>
 <html lang="es">
 	<head>
-  	<title>El Perol - Noticias tecnológicas</title>
+  	<title>El jocarsa - Noticias tecnológicas</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/estilo.css">
+    
     <style>
     	body,html{width:100%;height:100%;padding:0px;margin:0px;background:teal;}
       body{display:flex;justify-content:center;align-items:center;}
-      form{display:flex;flex-direction:column;gap:20px;padding:20px;background:white;}
+      form{
+      	display:flex;flex-direction:column;gap:20px;
+      	padding:40px;background:white;justify-content:center;
+        align-items:center;width:150px;height:150px;
+      }
+      form input{width:100%;padding:10px;box-sizing:border-box;}
     </style>
   </head>
   <body>
