@@ -1,6 +1,6 @@
 from PIL import Image
 
-imagen = Image.open("imagen.jfif")
+imagen = Image.open("/var/www/html/MI_AREA/Programacion_2do_T/007-Operaciones_agregadas/imagen.jfif")
 
 pixel1 = imagen.getpixel((0, 0))
 

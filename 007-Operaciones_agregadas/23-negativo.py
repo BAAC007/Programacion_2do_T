@@ -1,7 +1,7 @@
 # pip3 install pillow --break-system-packages
 from PIL import Image
 
-imagen = Image.open("imagen.jfif")
+imagen = Image.open("/var/www/html/MI_AREA/Programacion_2do_T/007-Operaciones_agregadas/imagen.jfif")
 
 anchura,altura = imagen.size	
 
